@@ -1,0 +1,109 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Laba 6</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="name">   
+            <p>Веб-приложение по поиску жилья в разных странах</p>
+        </div>
+        <div class="like">
+            <a href="#">ИЗБРАНОЕ</a>
+        </div>
+    </header>
+    <div class="main">
+        <div class="my-div">
+            <input class="serch" type="text" name="name" value="Введите город (на английском)" />
+            <button>Поиск</button>
+            <div>
+                <a href="#">Расширенный поиск</a>
+            </div>
+        </div>
+        <div class="my-div-1">
+            <div class="check">
+                <input type="checkbox" name="checkbox1" value="" />
+                <p>КУПИТЬ</p>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="checkbox1" value="" />
+                <p>ПРОДАТЬ</p>
+            </div>
+            <form class="form" name="testForm" action="" method="post">
+                <select id="elementId" name="combo1">
+                    <option value="0">Выбрать страну</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Brasil</option>
+                    <option value="3">Deutschland</option>
+                    <option value="4">España</option>
+                    <option value="5">France</option>
+                    <option value="6">India</option>
+                    <option value="7">Italia</option>
+                    <option value="8">Mexico</option>
+                    <option value="9">UK</option>
+                </select>
+            </form>
+        </div>
+        <div class="sort">
+            <div class="my-div-2">
+                <div>
+                    <span>Цена: </span>
+                </div>
+                <div class="cost">
+                    <p>От</p>
+                    <input type="text" name="x" value="0" />
+                </div>
+                <div class="cost">
+                    <p>До</p>
+                    <input type="text" name="x" value="99999999" />
+                </div>
+            </div>
+            <div class="my-div-2">
+                <div>
+                    <span>Комнаты: </span>
+                </div>
+                <div class="room">
+                    <p>От</p>
+                    <input type="text" name="x" value="0" />
+                </div>
+                <div class="room1">
+                    <p>До</p>
+                    <input type="text" name="x" value="15" />
+                </div>
+            </div>
+            <div class="my-div-2">
+                <div>
+                    <span>Ванные: </span>
+                </div>
+                <div class="bathroom">
+                    <p>От</p>
+                    <input type="text" name="x" value="0" />
+                </div>
+                <div class="bathroom1">
+                    <p>До</p>
+                    <input type="text" name="x" value="15" />
+                </div>
+            </div>
+            <div class="my-div-2">
+                <div>
+                    <span>Спальни: </span>
+                </div>
+                <div class="badroom">
+                    <p>От</p>
+                    <input type="text" name="x" value="0" />
+                </div>
+                <div class="badroom1">
+                    <p>До</p>
+                    <input type="text" name="x" value="15" />
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnwwquVvWtkiSqWuVWKtZw6mpzlCsJ5fE&callback=initMap"
+            async defer></script>
+</body>
+</html>
